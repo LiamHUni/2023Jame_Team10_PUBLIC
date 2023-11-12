@@ -1,0 +1,53 @@
+{
+    "smallMiner": {
+        "name": "Small Miner",
+        "type": "miner",
+        "dim": 10,
+
+        "cost": 50,
+        "health": 100,
+        "speed": 0.6,
+
+        "mineSpeed": 5,
+        "mineDelay": 60
+    },
+
+    "bigMiner": {
+        "name": "Big Miner",
+        "type": "miner",
+        "dim": 15,
+
+        "cost": 200,
+        "health": 100,
+        "speed": 0.7,
+
+        "mineSpeed": 30,
+        "mineDelay": 45
+    },
+
+    "smallAttacker": {
+        "name": "Small Attacker",
+        "type": "attacker",
+        "dim": 17,
+
+        "cost": 75,
+        "health": 100,
+        "speed": 1,
+
+        "attackDamage": 10,
+        "attackDelay": 60
+    },
+
+    "bigAttacker": {
+        "name": "Big Attacker",
+        "type": "attacker",
+        "dim": 20,
+
+        "cost": 250,
+        "health": 200,
+        "speed": 0.8,
+
+        "attackDamage": 20,
+        "attackDelay": 40
+    }
+}
