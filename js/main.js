@@ -164,7 +164,7 @@ function uiDraw(){
     textAlign(RIGHT, TOP);
     fill(0);
     textSize(40);
-    text("Mothership Pain: "+ spawner.mothership.health, width-20, 20);
+    text("Mothership Health: "+ spawner.mothership.health, width-20, 20);
     pop();
     
     
