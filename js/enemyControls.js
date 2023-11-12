@@ -63,7 +63,7 @@ class enemyController {
         }
 
         //increases the max amount of enemies on the screen every 10 seconds
-        if(frameCount % (60*20) == 0 && this.canSpawn){
+        if(frameCount % (60*60) == 0 && this.canSpawn){
             this.maxEnemies += 5;
             console.log(this.maxEnemies);
         }
